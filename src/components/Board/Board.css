@@ -1,0 +1,24 @@
+.board-container {
+  flex: 1;
+  overflow: auto;
+  padding: 20px;
+}
+
+.board {
+  display: flex;
+  gap: 20px;
+  min-height: 100%;
+}
+
+.board-message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-size: 16px;
+  color: #6b6f76;
+}
+
+.board-message.error {
+  color: #dc3545;
+}
